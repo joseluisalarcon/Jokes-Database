@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Post Your Comment</title>
+<link rel="stylesheet" href="/stylesheets/style.css">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="javascripts/comments.js"></script>
+</head>
+
+<body background="http://www.lafilm.edu/wp-content/uploads/2017/02/lolclt-open-mic-pic.jpg">
+<h1>
+What's your best Joke?
+</h1>
+<form id="commentForm" action="">
+<label for="name">Title: </label><input type="text" id="name" placeholder="Title"><br>
+<label for="comment">Joke: </label><input type="text" id="comment" placeholder="Do your worst!"><br>
+</form>
+
+<button class = "button" id="postComment"><span>Post Joke</span></button>
+<button class = "button" id="getComments"><span>Get Jokes</span></button>
+<!--<button class = "button" id="deleteComments"><span>Delete All</span></button>-->
+<!--<div id="json"></div>-->
+<div style="color:white" id="done"></div>
+<div id="comments"></div>
+</body>
+</html>
